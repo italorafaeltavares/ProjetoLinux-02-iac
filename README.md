@@ -5,13 +5,22 @@
 
 > Executando o script projeto-02.sh: 
 ````
-root@SRV-OLIMPO:~/projeto# ./script-iac2.sh
-CRIANDO DIRETORIOS
-CRIANDO GRUPOS
-APLICANDO PERMISSIONAMENTOS
-CRIANDO USUARIOS DO GRUPO ADM
-CRIANDO USUARIOS DO GRUPO VEN
-CRIANDO USUARIOS DO GRUPO SEC
+root@srvUbuntu:~# chmod +x script-iac2.sh
+
+root@srvUbuntu:~# ./script-iac2.sh
+Update systen...
+Hit:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
+....
+Downloads the files
+--2022-10-09 15:10:30--  https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
+Resolving github.com (github.com)... 20.201.28.151
+Connecting to github.com (github.com)|20.201.28.151|:443... connected.
+....
+Start service
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+End...
 ````
 > Verificando status do serviço do Apache2
 ````
@@ -33,3 +42,5 @@ Oct 09 15:10:47 srvUbuntu systemd[1]: Starting The Apache HTTP Server...
 ````
 
 > Acesso ao Site
+
+
