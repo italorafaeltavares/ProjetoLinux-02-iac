@@ -43,6 +43,17 @@ root@srvUbuntu:~# systemctl status apache2
 Oct 09 15:10:47 srvUbuntu systemd[1]: Starting The Apache HTTP Server...
 ````
 #
-> Acesso ao Site
+> Acessando o Site
+
+
+<p align="center">
+  
+  <img src="https://github.com/italorafaeltavares/ProjetoLinux-02-iac/blob/main/site.png" style="width: 550px;">
+ 
+</p>
+
+<p align="center">
+
+
 
 
