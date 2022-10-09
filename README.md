@@ -1,5 +1,6 @@
 # ProjetoLinux-02
 ## Infraestrutura como Código: Script de Provisionamento de um Servidor Web (Apache)
+#
 
 <p></p>
 
@@ -22,6 +23,7 @@ Synchronizing state of apache2.service with SysV service script with /lib/system
 Executing: /lib/systemd/systemd-sysv-install enable apache2
 End...
 ````
+#
 > Verificando status do serviço do Apache2
 ````
 root@srvUbuntu:~# systemctl status apache2
@@ -40,7 +42,7 @@ root@srvUbuntu:~# systemctl status apache2
 
 Oct 09 15:10:47 srvUbuntu systemd[1]: Starting The Apache HTTP Server...
 ````
-
+#
 > Acesso ao Site
 
 
